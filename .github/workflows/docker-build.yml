@@ -32,4 +32,4 @@ jobs:
         run: docker build -t manish28/sms-wallet:latest .
 
       - name: Push Docker image
-        run: docker push manish28/redis-app:latest
+        run: docker push manish28/sms-wallet:latest
